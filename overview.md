@@ -22,7 +22,6 @@ The application layer is incredibly broad, especially in the TCP/IP version of t
 **We'll learn...**
 
 * What the responsibilities of the application layer are, broadly speaking.
-* The specific purpose, function, and details of HTTP.
 * The specific purpose, function, and details of DNS.
 * The lifecycle of a web request with respect to HTTP and DNS, from the perspective of a web browser.
 

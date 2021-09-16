@@ -17,7 +17,7 @@ The Open Systems Interconnection (OSI) 7-layer model of networking is an extreme
 
 ### 2. The Application & Presentation Layers
 
-The application layer is incredibly broad, especially in the TCP/IP version of the stack. We'll briefly examine these broad general guidelines for what might be done in the application layer, as well as the blurry line between what is "application" and what is "presentation." Then, we'll dive into two of the most widely used application layer protocols: DNS and HTTP
+The application layer is incredibly broad, especially in the TCP/IP version of the stack. We'll briefly examine these broad general guidelines for what might be done in the application layer, as well as the blurry line between what is "application" and what is "presentation." Then, we'll dive into one of the most important application layer protocols: DNS
 
 **We'll learn...**
 
@@ -36,9 +36,6 @@ The session and transport layers (combined into one layer in TCP/IP) are respons
 * The specific purpose, function, and some details of TCP including:
     * Connection establishment and management.
     * Control flow behavior.
-* The specific purpose, function, and some details of SSL/TLS, including:
-    * The role of "Certificate Authorities"
-    * The details of the key-generation process.
 
 ### 4. The Network Layer
 
@@ -54,13 +51,3 @@ The network layer is responsible for getting data from point A to point B. We'll
 * The purpose and function of two other supporting protocols:
     * Network Address Translation (NAT)
     * Dynamic Host Configuration Protocol (DHCP)
-
-### 5. The Link and Physical Layers
-
-These two layers are tightly linked (and in fact are combined in the TCP/IP stack). They relate to the hardware that physically sends information across the medium of choice. Ethernet, Wi-Fi, and 4G/5G are the most well known such protocols. These layers are of critical concern to folks building networking hardware, and tend to be less important to software developers who assume this stuff "just works" and write their software accordingly.
-
-**We'll learn...**
-
-* A little bit about the physical transmission mechanism of Ethernet.
-* Enough about how Wi-Fi works to wonder how it is even possible.
-* The basics of the Address Resolution Protocol (ARP).

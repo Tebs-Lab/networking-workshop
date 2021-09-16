@@ -1,0 +1,96 @@
+Transmission Control Protocol, Src Port: 60021, Dst Port: 80, Seq: 0, Len: 0
+    Source Port: 60021
+    Destination Port: 80
+    [Stream index: 42]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 408329057
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 0
+    Acknowledgment number (raw): 0
+    1011 .... = Header Length: 44 bytes (11)
+    Flags: 0x002 (SYN)
+    Window: 65535
+    [Calculated window size: 65535]
+    Checksum: 0x9897 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (24 bytes), Maximum segment size, No-Operation (NOP), Window scale, No-Operation (NOP), No-Operation (NOP), Timestamps, SACK permitted, End of Option List (EOL)
+        TCP Option - Maximum segment size: 1460 bytes
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Window scale: 6 (multiply by 64)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 499847865, TSecr 0
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 499847865
+            Timestamp echo reply: 0
+        TCP Option - SACK permitted
+        TCP Option - End of Option List (EOL)
+            Kind: End of Option List (0)
+
+Transmission Control Protocol, Src Port: 80, Dst Port: 60021, Seq: 0, Ack: 1, Len: 0
+    Source Port: 80
+    Destination Port: 60021
+    [Stream index: 42]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 2610001420
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 408329058
+    1010 .... = Header Length: 40 bytes (10)
+    Flags: 0x012 (SYN, ACK)
+    Window: 65535
+    [Calculated window size: 65535]
+    Checksum: 0xa146 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+        TCP Option - Maximum segment size: 1430 bytes
+        TCP Option - SACK permitted
+        TCP Option - Timestamps: TSval 2523488345, TSecr 499847865
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 2523488345
+            Timestamp echo reply: 499847865
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Window scale: 8 (multiply by 256)
+    [SEQ/ACK analysis]
+    [Timestamps]
+
+Transmission Control Protocol, Src Port: 60021, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+    Source Port: 60021
+    Destination Port: 80
+    [Stream index: 42]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 408329058
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 2610001421
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x010 (ACK)
+    Window: 2060
+    [Calculated window size: 131840]
+    [Window size scaling factor: 64]
+    Checksum: 0xc7c6 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 499847900, TSecr 2523488345
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 499847900
+            Timestamp echo reply: 2523488345
+    [SEQ/ACK analysis]
+    [Timestamps]

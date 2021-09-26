@@ -151,7 +151,7 @@ TE: Trailers
 * FINALLY, before we can send the data off our computer, we need to utilize whichever specific data-link protocol is appropriate. Lets assume the first hop from our laptop is an ethernet cable to our modem, then we'd wrap all this data in an Ethernet Frame:
     * (There are a few different kinds of Ethernet frame as the technology has evolved... here is one for Ethernet Type II)
 
-![](https://en.wikipedia.org/wiki/File:Ethernet_Type_II_Frame_format.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/1/13/Ethernet_Type_II_Frame_format.svg)
 
 * The MAC addresses represent the two physical devices (our computers ethernet card, and the models ethernet card).
 * Ethertype indicates which type of ethernet frame this is, Type II is the most common but there are others.

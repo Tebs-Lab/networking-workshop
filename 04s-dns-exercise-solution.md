@@ -208,7 +208,7 @@ All the root servers have similar names, you can query for a-m.root-servers.net.
 
 **Using the IP address of one of the root servers make a query directly to a root server asking for an A record for google.com.**
 
-> ```
+```
 dig @198.41.0.4 A google.com
 ```
 
@@ -316,7 +316,8 @@ m.gtld-servers.net.	172800	IN	AAAA	2001:501:b1f9::30
 **Ask one of these TLD servers the same question, for an A record for google.com.**
 
 > I used the IP address for m.gtld-servers.net
-> ```
+
+```
 dig @192.55.83.30 A google.com
 ```
 
